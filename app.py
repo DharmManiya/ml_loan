@@ -8,7 +8,7 @@ st.set_page_config(
     layout="centered"
 )
 
-#n_model=pk.load(open('n_model.pkl','rb')) 
+n_model=pk.load(open('n_model.pkl','rb')) 
 regressor=pk.load(open('regressor.pkl','rb')) 
 d_model=pk.load(open('d_model.pkl','rb')) 
 model=pk.load(open('model.pkl','rb')) 
